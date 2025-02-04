@@ -125,26 +125,58 @@ O nome desse aparelho é **modem** (Gateway na verdade, mas nós chamamos de mod
 
 Todo site fica **hospedado** (guardado/salvo) em um servidor.
 
-E para acessar um site, o modem utiliza um DNS (Domain Name Sistem - Sistema de Domínio de Nomes) para pesquisar qual o IP do servidor, e então envia para o modem novamente, e agora o modem sabe qual o IP do servidor desejado, ele acessa o servidor
+E para acessar um site, o modem utiliza um DNS (Domain Name Sistem - Sistema de Domínio de Nomes) para pesquisar qual o IP do servidor, e então envia para o* modem novamente, e agora o modem sabe qual o IP do servidor desejado, ele acessa o servidor
 
 ## Capítulo 2.2 - O que é domínio e hospedagem?
 
-### URL e Domínio
+### URL, Domínio, TLD, Caminho e Hospedagem
 
-gustavoguanabara.**github.io** -> O conjunto completo é uma URL
-Github.io -> Domínio - Pago anualmente, Único e Vários **TLD**s
+www.**github *.com***/gustavoguanabara -> O conjunto completo é uma URL (Uniform Resource Locator)
 
-### Hospedagem
+www.github.com -> Domínio
 
-* Espaço de Armazenamento 
-* Pago mensalmente (geralmente)
+www -> Sub-domínio
 
+.com -> TLD
+
+gustavoguanabara -> Caminho
+
+#### Domínio
+
+* É o que indentifica o site 
+* Pago anualmente
+* Único
+* Vários **TLD**s
+
+##### TLD
+
+GTLD (Generic Top Level Domain)
 
 * .com -> comercial
-* .com -> 
-* .com -> 
-* .com -> 
-* .com -> 
-* .com -> 
+* .net -> serviço de rede
+* .io -> Input/Output (entrada/saída)
+* .gov -> governamental
+* .edu -> educacional
+* .store -> lojas
 
-? /
+CCTLD (Country Code Top Level Domain)
+
+* .br -> Brasil
+* .us -> United States
+* .uk -> United Kingdom
+* .tv -> Tuvalu
+
+#### Hospedagem
+
+* Espaço para armazenar arquivos
+* Pago mensalmente (geralmente)
+* Espaço, memória e recursos
+
+### Exemplo Prático
+
+**gustavoguanabara.github.io**
+
+* O total é uma URL
+* github.io -> Domínio
+* .io -> TLD
+* gustavoguanabara -> Sub-domínio (particularmente, eu achei que esse seria o caminho, mas essa URL não tem caminho)
